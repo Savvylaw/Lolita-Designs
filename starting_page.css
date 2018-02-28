@@ -1,0 +1,104 @@
+body {
+    font-family:"Georgia", serif;
+    background-color: white;
+    }
+
+    .main_menu {
+    padding: 5px 0 5px 0;
+    text-align: center;
+    line-height: 40px;
+    background-color: white;
+    border-top: 1px solid PaleVioletRed;
+    border-bottom: 1px solid PaleVioletRed;
+    }
+
+      ul.main_menu {
+        margin-top: 15px;
+      }
+
+          .main_menu li {
+          display: inline;
+          padding: 0 10px 0 10px;
+          font-size: 17px;
+          }
+
+            .main_menu a {
+            text-decoration: none;
+            color: #2B3856;
+            padding: 8px;
+            font-family:"Georgia", serif;
+            }
+
+              .main_menu a:hover {
+              color: #e2accd;
+              }
+
+    h1 {
+      color: #2B3856;
+    }
+
+    .polaroid-images a {
+  	background: white;
+  	display: inline;
+  	float: left;
+  	margin: 0 15px 30px;
+  	padding: 10px 10px 25px;
+  	text-align: center;
+  	text-decoration: none;
+  	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+  	-moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
+  	box-shadow: 0 4px 6px rgba(0,0,0,.3);
+  	-webkit-transition: all .15s linear;
+  	-moz-transition: all .15s linear;
+  	transition: all .15s linear;
+  	z-index:0;
+    position: relative;
+    }
+
+        .polaroid-images img {
+	       display: block;
+	       width: inherit;
+        }
+          .polaroid-images a:after {
+            color: #2B3856;
+            font-size: 20px;
+            font-style: italic;
+            content: attr(title);
+            position: relative;
+            top:15px;
+            }
+
+
+    .polaroid-images1 a {
+  	 background: white;
+  	 display: inline;
+  	 float: left;
+  	 margin: 0 15px 30px;
+  	 padding: 10px 10px 25px;
+  	 text-align: center;
+  	 text-decoration: none;
+  	 -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+  	 -moz-box-shadow: 0 4px 6px rgba(0,0,0,.3);
+  	 box-shadow: 0 4px 6px rgba(0,0,0,.3);
+  	 -webkit-transition: all .15s linear;
+  	 -moz-transition: all .15s linear;
+  	 transition: all .15s linear;
+  	 z-index:0;
+     position:relative;
+    }
+
+          .polaroid-images1 img {
+	         display: block;
+	         width: inherit;
+          }
+
+              .polaroid-images1 a:nth-child(3n) {
+	            -webkit-transform: rotate(-18deg);
+	            -moz-transform: rotate(-18deg);
+	            transform: rotate(-18deg);
+              }
+              .polaroid-images1 a:nth-child(2n) {
+	            -webkit-transform: rotate(14deg);
+	            -moz-transform: rotate(14deg);
+	            transform: rotate(14deg);
+              }
